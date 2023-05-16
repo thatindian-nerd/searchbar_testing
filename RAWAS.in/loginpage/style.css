@@ -1,0 +1,291 @@
+                                                    @import "reset.css";
+                                                    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+                                                    body {
+                                                        font: 14px "Open sans", sans-serif;
+                                                        min-height: 100vh;
+                                                        background-color: #242d34;
+                                                        display: flex;
+                                                        align-items: center;
+                                                        justify-content: center;
+                                                        color: white;
+                                                    }
+                                                    
+                                                    a {
+                                                        text-decoration: none;
+                                                        color: black;
+                                                    }
+                                                    
+                                                    b {
+                                                        text-decoration: none;
+                                                        color: #00acee;
+                                                        margin: 10rem 1rem;
+                                                    }
+                                                    
+                                                    .or {
+                                                        display: flex;
+                                                        align-items: center;
+                                                        justify-content: center;
+                                                        gap: 10px;
+                                                        margin-top: 12px;
+                                                    }
+                                                    
+                                                    h1 {
+                                                        text-align: center;
+                                                        margin-bottom: 30px;
+                                                        font-size: 29px;
+                                                        font-weight: 1000;
+                                                    }
+                                                    
+                                                    .btn {
+                                                        border: 1px solid rgb(255, 255, 255);
+                                                        border-radius: 15px;
+                                                        padding: 10px 10px;
+                                                        width: 22vw;
+                                                        text-align: center;
+                                                        margin-left: 130px;
+                                                        display: flex;
+                                                        align-items: center;
+                                                        justify-content: center;
+                                                        gap: 10px;
+                                                        cursor: pointer;
+                                                        background-color: white;
+                                                    }
+                                                    
+                                                    .btn a {
+                                                        color: black;
+                                                    }
+                                                    
+                                                    .a:not(.btn) {
+                                                        color: #00acee;
+                                                    }
+                                                    
+                                                    .card {
+                                                        border: 1px solid black;
+                                                        margin-top: 40px;
+                                                        height: 88vh;
+                                                        width: 43vw;
+                                                        background-color: #000000;
+                                                        border-radius: 15px;
+                                                        border: none;
+                                                        padding: 27px 25px;
+                                                        display: flex;
+                                                        flex-direction: column;
+                                                    }
+                                                    
+                                                    .login-card {
+                                                        position: relative;
+                                                        min-width: 600px;
+                                                        background-color: black;
+                                                        border-radius: 15px;
+                                                        padding: 1rem 9rem;
+                                                        justify-content: center;
+                                                    }
+                                                    
+                                                    .login-card-header {
+                                                        text-align: center;
+                                                        margin-bottom: 1.5rem;
+                                                    }
+                                                    
+                                                    .login-card-header a {
+                                                        display: block;
+                                                        position: absolute;
+                                                        left: 0;
+                                                        top: 0;
+                                                        padding: 20px;
+                                                    }
+                                                    
+                                                    .login-card h1 {
+                                                        font-size: 2rem;
+                                                        margin-bottom: .17rem;
+                                                        font-weight: 700;
+                                                    }
+                                                    
+                                                    .login-card.btn {
+                                                        background-color: white;
+                                                        padding: .6rem 1.5rem;
+                                                        display: flex;
+                                                        align-content: center;
+                                                        justify-content: center;
+                                                        gap: .5rem;
+                                                        border-radius: 50px;
+                                                        color: rgb(255, 255, 255);
+                                                        border: 1px solid transparent;
+                                                        font-weight: 600;
+                                                    }
+                                                    
+                                                    .login-card .btn img {
+                                                        width: 20px;
+                                                    }
+                                                    
+                                                    .login-card .btn-outline {
+                                                        background: none;
+                                                        color: white;
+                                                        border-color: rgba(225, 225, 225, .4);
+                                                    }
+                                                    
+                                                    .login-card .line-border {
+                                                        position: relative;
+                                                        display: flex;
+                                                        align-items: center;
+                                                        gap: .5rem;
+                                                        margin-bottom: 1rem;
+                                                    }
+                                                    
+                                                    .login-card .line-border:before,
+                                                    .login-card .line-border:after {
+                                                        content: '';
+                                                        display: block;
+                                                        height: 1px;
+                                                        flex: 1;
+                                                        background: rgba(225, 225, 225, .2);
+                                                    }
+                                                    
+                                                    a .login-card input[type="text"] {
+                                                        width: 100%;
+                                                        height: 60px;
+                                                        border: 1px solid rgba(243, 238, 238, 0.651);
+                                                        background: none;
+                                                        border-radius: 5px;
+                                                        padding-left: .7rem;
+                                                        padding-top: 1rem;
+                                                        justify-content: center;
+                                                        color: rgb(0, 0, 0);
+                                                        font-size: 16px;
+                                                    }
+                                                    
+                                                    .login-card .input-group {
+                                                        position: relative;
+                                                        margin-bottom: 1.5rem;
+                                                    }
+                                                    
+                                                    .login-card .input-group span {
+                                                        position: absolute;
+                                                        inset: 0;
+                                                        display: flex;
+                                                        align-items: center;
+                                                        pointer-events: none;
+                                                        font-size: 16px;
+                                                        justify-content: center;
+                                                        transition: all .3s ease;
+                                                        padding: 0 .7rem;
+                                                        opacity: .5;
+                                                    }
+                                                    
+                                                    .input-group {
+                                                        width: 22vw;
+                                                        padding: 20px 7px;
+                                                        font-size: 16px;
+                                                        border-radius: 15px;
+                                                        text-align: center;
+                                                        margin-left: 130px;
+                                                        display: flex;
+                                                        align-items: center;
+                                                        justify-content: center;
+                                                        gap: 10px;
+                                                        border: 1px solid rgb(211, 204, 204);
+                                                    }
+                                                    
+                                                    #input {
+                                                        font-size: 15px;
+                                                    }
+                                                    
+                                                    .btn1 {
+                                                        background-color: #000000;
+                                                        color: white;
+                                                        justify-content: center;
+                                                    }
+                                                    
+                                                    .login-card input[type="text"].focus {
+                                                        outline: none;
+                                                        justify-content: center;
+                                                    }
+                                                    
+                                                    .signup {
+                                                        margin: 1rem 9rem;
+                                                        color: #888;
+                                                    }
+                                                    
+                                                    .signup a {
+                                                        color: #d3dee2;
+                                                    }
+                                                    
+                                                    .login-card input[type="text"] .focus~span {
+                                                        color: #00acee;
+                                                        justify-content: center;
+                                                        font-size: 13px;
+                                                        transform: translateY(-15px);
+                                                        opacity: 1;
+                                                    }
+                                                    /*RESPONSIVE*/
+                                                    
+                                                    @media(max-width:768px) {
+                                                        body {
+                                                            background-color: black;
+                                                        }
+                                                        .login-card-header {
+                                                            position: fixed;
+                                                            inset: 0;
+                                                            bottom: auto;
+                                                            padding: 1rem;
+                                                        }
+                                                        .foot {
+                                                            margin: 2rem 9rem;
+                                                            color: #888;
+                                                        }
+                                                        footer {
+                                                            margin: 1rem 9rem;
+                                                            color: #888;
+                                                        }
+                                                        .btn {
+                                                            border: 1px solid rgb(255, 255, 255);
+                                                            border-radius: 15px;
+                                                            padding: 13px 188px;
+                                                            width: 22vw;
+                                                            text-align: center;
+                                                            margin-left: -122px;
+                                                            display: flex;
+                                                            align-items: center;
+                                                            justify-content: center;
+                                                            gap: 10px;
+                                                            cursor: pointer;
+                                                            background-color: white;
+                                                        }
+                                                        .btn1 {
+                                                            background-color: #000000;
+                                                            color: white;
+                                                            justify-content: center;
+                                                        }
+                                                        .input-group {
+                                                            width: 22vw;
+                                                            padding: 27px 140px;
+                                                            font-size: 16px;
+                                                            border-radius: 15px;
+                                                            text-align: center;
+                                                            margin-left: -68px;
+                                                            display: flex;
+                                                            align-items: center;
+                                                            justify-content: center;
+                                                            gap: 10px;
+                                                            border: 1px solid rgb(211, 204, 204);
+                                                        }
+                                                        element.style {
+                                                            margin: 3rem -7rem;
+                                                            color: #888;
+                                                        }
+                                                        element.style {
+                                                            margin: 4rem -7rem;
+                                                            color: #888;
+                                                        }
+                                                    }
+                                                    
+                                                    @media(max-width:768px) {
+                                                        .signup {
+                                                            margin: 4rem -7rem;
+                                                            color: #888;
+                                                            justify-content: center;
+                                                        }
+                                                        .foot {
+                                                            margin: -1rem -11rem;
+                                                            color: #888;
+                                                        }
+                                                    }
